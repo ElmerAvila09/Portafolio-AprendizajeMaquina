@@ -35,5 +35,7 @@ y = 7.001 + 4.089 * x1 + 8.0325 * x2, 3.0313 * x3 - 2.0007 * x4
 
 ## Calidad del modelo
 Error de prueba/validación: 432.0075
+
 Error de entrenamiento: 6815.549
+
 El modelo obtuvo buenos resultados al momento de realizar predicciones con el dataset predefinido para ello, y aunque, no es igual de bueno en el cálculo del Error con los datos de entrenamiento, se puede que modelo tiene un buen balance pues como se demuestra en la tabla anterior, se tomó una muestra cercana al 10% de los datos y todos ellos demuestran tener buenos resultados de predicción, si bien existe área de mejora, se pueden seguir cambiando los parámetros del modelo para obtener un mejor resultado.
