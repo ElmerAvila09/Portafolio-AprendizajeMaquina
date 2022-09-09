@@ -3,7 +3,7 @@
 Se realiza un modelo para predecir la cantidad de calorias que contendra un alimento en base a la cantidad carbohidratos, lípidos, proteínas y sodio (en gramos), que contiene el mismo.
 
 ## Modelo obtenido
-y = 7.001 + 4.089 * x1 + 8.0325 * x2, 3.0313 * x3 - 2.0007 * x4
+y = 7.001 + 4.089 * x1 + 8.0325 * x2 + 3.0313 * x3 - 2.0007 * x4
 
 ### Tabla de predicciones, resultado del modelo anterior
 | Real | Prediccion    |
