@@ -5,7 +5,14 @@ Se realiza un modelo para predecir la cantidad de calorias que contendra un alim
 ## Modelo obtenido
 y = 7.0004 + 4.508 * x1 + 8.1739 * x2 + 3.1457 * x3 - 2.0041 * x4
 
-### Tabla de predicciones, resultado del modelo anterior
+## Calidad del modelo
+Error de prueba/validación: 271.02167
+
+Error de entrenamiento: 184.5438
+
+El modelo obtuvo buenos resultados al momento de realizar predicciones con el dataset de entrenamiento, y aunque, no es igual de bueno en el cálculo del Error con los datos de prueba, se puede decir que el modelo tiene un buen balance, el sesgo y la variacion se encuntran entre medio y bajo; además como se observa en la tabla anterior, se tomó una muestra cercana al 10% de los datos y todos ellos demuestran tener buenos resultados de predicción, si bien existe área de mejora, se pueden seguir cambiando los parámetros del modelo para obtener un mejor resultado.
+
+## Tabla comparativa de predicciones.
 | Real | Prediccion    |
 | ---- | ------------- |
 400    |   410.0|
@@ -33,10 +40,3 @@ y = 7.0004 + 4.508 * x1 + 8.1739 * x2 + 3.1457 * x3 - 2.0041 * x4
 210    |   191.0|
 300    |   324.0|
 33     |   45.0|
-
-## Calidad del modelo
-Error de prueba/validación: 271.02167
-
-Error de entrenamiento: 184.5438
-
-El modelo obtuvo buenos resultados al momento de realizar predicciones con el dataset de entrenamiento, y aunque, no es igual de bueno en el cálculo del Error con los datos de prueba, se puede decir que el modelo tiene un buen balance, el sesgo y la variacion se encuntran entre medio y bajo; además como se observa en la tabla anterior, se tomó una muestra cercana al 10% de los datos y todos ellos demuestran tener buenos resultados de predicción, si bien existe área de mejora, se pueden seguir cambiando los parámetros del modelo para obtener un mejor resultado.
